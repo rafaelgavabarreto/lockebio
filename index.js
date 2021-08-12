@@ -5,7 +5,7 @@ require('dotenv').config({
 
 const express = require('express');
 const app = express();
-const appRoutes = require('./routes/index');
+const appRoutes = require('./routes/index.route');
 const bodyParser = require('body-parser');
 const busboy = require('connect-busboy');
 const busboyBodyParser = require('busboy-body-parser');
